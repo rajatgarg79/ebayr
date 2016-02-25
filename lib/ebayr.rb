@@ -77,7 +77,7 @@ module Ebayr
   self.logger.level = Logger::INFO
 
   mattr_accessor :debug
-  self.debug = false
+  self.debug = true
 
   # Gets either ebay.com/ws or sandbox.ebay.com/ws, as appropriate, with
   # "service" prepended. E.g.
